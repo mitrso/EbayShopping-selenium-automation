@@ -1,0 +1,27 @@
+Problem 1:
+I have tried to create a sample framework for the task that was given to automate. There can 
+be multiple enhancement made in the framework like adding screenshot, a proper result and adding 
+Log4j for logging. However with the time that i had juggling with my deliverables I could just 
+complete this. There can be many more asserts based on the tests that was given but i have just 
+just used few of them.
+
+Explanation of the framework:
+FrameworkPackages folder contains all the framework related classess
+Pages contains all the page related methods
+AddtoCart class is the TestNg class where you the flow of the test.
+properties file is the place from where we are getting the user inputs
+pom.xml contains all the dependency required for the project.
+
+
+Problem 2:
+Go To Checkout or Continue To sign can only be done if we get more details as there are number of 
+fields which needs to be filled. There are lot of unknown so that was not automated but it should
+be pretty easy to automate when the info is available
+
+Now, coming to logging in with previous registered user, we need a database or an excel at the least
+to store the data that we have used for previous log in.Because if the session ends the value might
+not be retained and we would need a storage to get around that.
+
+Problem 3:
+Pythagorean triplet class is available in Pages package. It has a main method and please run it as
+java application.

@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ebay</groupId>
+  <artifactId>EbayShopping</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Ebay Shopping</name>
+  <description>Ebay shopping demo</description>
+  
+  <properties>
+  <selenium.version>2.53.0</selenium.version>
+  <testng.version>6.8</testng.version>
+  <commons.componentid>chain</commons.componentid>
+  <commons.release.version>1.4</commons.release.version>
+  </properties>
+
+ <dependencies>
+  <dependency>
+   <groupId>org.seleniumhq.selenium</groupId>
+   <artifactId>selenium-java</artifactId>
+   <version>${selenium.version}</version>
+  </dependency>
+  <dependency>
+   <groupId>org.testng</groupId>
+   <artifactId>testng</artifactId>
+   <version>${testng.version}</version>
+   <scope>test</scope>
+  </dependency>
+ </dependencies>
+
+</project>
+  
